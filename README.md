@@ -22,7 +22,8 @@ https://github.com/mohamadelhinamy/AirMan.git
 
 2. Install [required packages](https://github.com/mohamadelhinamy/AirMan/blob/main/package.json) `npm install`
 3. Configure the [environment variables](https://github.com/mohamadelhinamy/AirMan/blob/main/.env.default), such as the database URL.
-4. `npm run build` then `npm run dev`
+4. `npm run prisma:migrate`
+5. `npm run build` then `npm run dev`
 
 ## Folder Structure
 
